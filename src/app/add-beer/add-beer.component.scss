@@ -1,0 +1,114 @@
+body {
+    height: 100vh;
+    background: #F8F8FF;
+    background-size: 100% 100% 100% 100%;
+}
+
+h1 {
+    font-size: 15pt;
+    font-family: 'Montserrat', sans-serif;
+    color: #4169E1;
+    margin-left: 450px;
+    padding-top: 30px;
+}
+
+.image-beer {
+    margin-bottom: -80px;
+    margin-left: 450px;
+    padding-bottom: 0%;
+    padding-top: 0%;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+    font-size: 9pt;
+    margin-left: 550px;
+}
+
+input[type='file'] {
+    display: none;
+  }
+
+ .upload {
+     font-family: 'Montserrat'sans-serif;
+     border-color: solid #9899;
+     color: grey;
+     cursor: pointer;
+     padding: 6px 10px;
+     font-size: 10pt;
+     margin-left: 550px;
+     background-color: #fff;
+     border: 1px solid grey;
+     border-radius: 19px;
+
+ } 
+
+.nav-link {
+    font-size: 8pt;
+    padding: 10px;
+    margin-right: 40px;
+}
+
+.navbar-brand {
+    cursor: pointer;
+    outline: none;
+    margin-top: 5px;
+    margin-right: 50px;
+    margin-left: 40px;
+    font-size: 9pt;
+}
+
+.navbar-brand1 {
+    margin-top: 7px;
+    margin-right: -32px;
+}
+
+.form-control {
+    margin-left: 450px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 500px;
+    border-radius: 0;
+    border: none;
+    background: #F8F8FF repeat;
+    border-bottom: 1px solid #adadad;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+.form-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9pt;
+    margin-left: 450px;
+    margin-top: 20px;
+    color: grey;
+    margin-bottom: 0px;
+}
+
+.btn-secondary {
+    margin-top: 30px;
+    margin-left: 450px;
+    width: 130px;
+    padding: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 7pt;
+    border-radius: 19px;
+    
+}
+
+.btn-primary {
+    margin-top: 30px;
+    margin-left: 250px;
+    width: 130px;
+    padding: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 7pt;
+    border-radius: 19px;
+}

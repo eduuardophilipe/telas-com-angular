@@ -1,0 +1,82 @@
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #4169E1">
+
+<span class="navbar-brand">LOGO</span>
+        
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+        
+<div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item">
+        <a class="nav-link">DASHBOARD</a>
+        </li>
+
+        <li class="nav-item">
+        <a class="nav-link">PRODUTOS</a>
+        </li>
+
+    </ul>
+
+<label class="navbar-brand1"><img src="../../assets/imagens/user.png"></label>
+<label routerLink="/beers" class="navbar-brand">LOGIN</label>
+            
+    </div>
+</nav>
+
+
+
+<body>
+
+<h1>Nova Cerveja</h1>
+
+    <div class="form-group">
+        <img class="image-beer" src="../../assets/imagens/beer glass.png">
+        <h5>Imagem da Cerveja</h5>
+        <label class="upload" for="upload">UPLOAD DE ARQUIVO</label>
+        <input type="file" id="upload">
+    </div>
+
+<form>
+    <div class="form-group">
+        <label class="form-name">Nome</label>
+            <input type="text"
+            autocomplete="false" 
+            class="form-control"
+            required>
+    </div>
+
+<label class="form-name">Grupo da Cerveja</label>
+    <select class="form-control form-control-md">
+        <option>Lager</option>
+        <option>Pilsen</option>
+        <option>Weissbier</option>
+    </select>
+
+    <div class="form-group">
+    <label class="form-name">Custo Unitário</label>
+        <input type="number"
+        autocomplete="false" 
+        class="form-control"
+        placeholder="R$"
+        required>
+
+
+<label class="form-name">Descrição da cerveja</label>
+
+    <input type="text"
+        autocomplete="false" 
+        class="form-control"
+        required>
+
+    </div>
+
+<button class="btn btn-secondary" routerLink="/beers">VOLTAR</button>
+
+<button type="button" class="btn btn-primary">CRIAR</button>
+
+</form>
+
+
+</body>

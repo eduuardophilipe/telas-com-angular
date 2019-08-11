@@ -1,0 +1,140 @@
+body {
+    height: 110vh;
+    background: #F8F8FF repeat;
+    background-size: 100% 100% 100% 100%;
+}
+
+.navbar-text {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 9pt;
+    margin-right: 30px;
+}
+
+
+.navbar-brand {
+    cursor: pointer;
+    outline: none;
+    margin-top: 0px;
+    margin-right: 50px;
+    margin-left: 40px;
+    font-size: 9pt;
+}
+
+.navbar-brand1 {
+    margin-top: 7px;
+    margin-right: -32px;
+}
+
+
+.nav-link {
+    font-size: 8pt;
+    padding: 10px;
+    margin-right: 40px;
+}
+
+
+h3 {
+    margin-top: 80px;
+    margin-left: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    color: #4169E1;
+}
+
+.btn-primary {
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 19px;
+    width: 200px;
+}
+
+
+.list-group-item {
+    margin: 15px;
+    height: 150px;
+    background: #fff;
+    border-radius: 15px; 
+}
+
+.image-item {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+div.tipo {
+    width: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    font-size: 12pt;
+    color: #4169E1;
+    margin-top: -110px;
+    margin-left: 200px;
+}
+
+
+div.tipo1 {
+    position: absolute;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    margin-top: -110px;
+    margin-left: 450px;
+}
+
+
+div.tipo2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    font-size: 12pt;
+    margin-left: 570px;
+    margin-top: -110px;
+    text-align: left;
+}
+
+
+div.list-content {
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    margin-left: 630px;
+    padding: 100px;
+    margin-top: -220px;
+    float: right;
+    font-size: 9pt;
+    text-align: left;
+}
+
+.btn-secundary {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9pt;
+    width: 190px;
+    height: 35px;
+    position: absolute;
+    border-radius: 19px;
+    margin-left: 1070px;
+    margin-top: -75px;
+    background-color: #3CB371;
+}
+
+.button {
+    background: none;
+    border: none;
+    outline: none;
+    position: absolute;
+    margin-left: 1220px;
+    margin-top: -115px;
+}
+
+.button-pencil {
+    background: none;
+    border: none;
+    outline: none;
+    position: absolute;
+    margin-left: 1180px;
+    margin-top: -115px;
+}

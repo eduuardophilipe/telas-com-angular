@@ -1,0 +1,71 @@
+<body>
+
+<span class="background-image"><img src="../../assets/imagens/fundo1.png"></span>
+
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #4169E1">
+
+    <a routerLink="" class="navbar-brand">LOGO</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#">SOBRE</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#">O MERCADO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">ESPECIAIS</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#">CURIOSIDADES</a>
+        
+        </li>
+      </ul>
+  
+      <label class="image-icon"><img src="../../assets/imagens/user.png"></label>
+      <label class="navbar-text1">LOGIN</label>
+      
+    </div>
+  </nav>
+
+
+<h1>Login</h1>
+
+<form #f="ngForm">
+    <div class="form-group">
+      <label class="form-name" id="email">Email</label>
+      <input type="email"
+      autocomplete="false" 
+      class="form-control"
+      for="email" 
+      [(ngModel)]="usuario.email"
+      name="email"
+      required>
+      
+    </div>
+
+    <div class="form-group">
+      <label class="form-name" id="senha">Senha</label>
+      <input type="password" 
+      autocomplete="false"
+      class="form-control"
+      for="senha"
+      [(ngModel)]="usuario.senha"
+      name="password" 
+      required>
+      
+    </div>
+
+    <button (click)="fazerLogin()" type="submit" class="btn btn-primary" [disabled]=!f.valid>ENTRAR</button>
+
+  </form>
+
+</body>
